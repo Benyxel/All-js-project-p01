@@ -1,20 +1,25 @@
-// document.getElementById("count-el").innerText = 5
 
 
+let countEl = document.getElementById("count-el")
+console.log(countEl)
 
- let count = 5
+let count = 0
 
- count = count + 1
- console.log(count)
-
- 
 function increment() {
-  console.log("clicked")
+  count = count + 1
+ countEl.innerText = count
 }
  
-function bernard() {
- console.log(45)
-}
 
-bernard()
 
+
+
+
+
+
+
+
+
+
+
+ 
