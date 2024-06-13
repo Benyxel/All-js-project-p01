@@ -9,26 +9,16 @@ function increment() {
   count = count + 1
  countEl.innerText = count
 }
- 
+ let saveEl = document.getElementById("save-el")
+
+
 function save() {
+  count2 = count + "0 - "
+  saveEl.innerText = count2
   console.log(count)
 }
 
-save()
-let username = "Bernard "
 
-let message = "You have three new notifications"
- console.log(username + message)
-
- let messageToUser = username + message
-  console.log(messageToUser)
-
-
-let name = "Bernard"
-let greeting = "Hi, my name is "
-
-let myGreeting = greeting + name
-console.log(myGreeting)
 
 
 
