@@ -2,21 +2,23 @@
 
 let countEl = document.getElementById("count-el")
 console.log(countEl)
-
+let saveEl = document.getElementById("save-el")
 let count = 0
 
 function increment() {
   count = count + 1
- countEl.innerText = count
+ countEl.textContent = count
 }
- let saveEl = document.getElementById("save-el")
+ 
 
 
 function save() {
-  count2 = count + "0 - "
-  saveEl.innerText = count2
-  console.log(count)
+  count2 = count +  " - "
+  saveEl.textContent += count2
+  countEl.textContent = 0
+  count = 0
 }
+
 
 
 
