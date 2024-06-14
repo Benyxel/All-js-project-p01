@@ -1,14 +1,5 @@
-let firstName = "Yeboah"
-let secondName = " Bernard"
+let errorP = document.getElementById("error")
 
-let fullName = firstName + secondName
-console.log(fullName)
-
-let name = "Linda"
-let greeting = "Hi there"
-
-function greetingl() {
-  console.log(greeting + ", " + name + "!" )
+function buy(){
+errorP.textContent = "Something went wrong"
 }
-
-greetingl()
