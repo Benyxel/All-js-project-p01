@@ -35,15 +35,21 @@
 
 
 let firstCard = 10
-let secondCard = 12
+let secondCard = 1
 let sum = firstCard + secondCard
+let isAlive = true
+let message = ""
 
 if (sum <= 20){
-  console.log("Do you want to draw a new card?")
+  message = "Do you want to draw a new card?"
 }
 else if (sum === 21){
-  console.log("You have got a Blackjack!")
+  message = "You have got a Blackjack!"
 }
 else {
-  console.log(" You are out the game!")
+  message = "You are out the game!"
+  isAlive = false
 }
+console.log(message)
+
+  
