@@ -49,3 +49,12 @@ button {
   cursor: pointer;
   padding: 5px 8px;
 } */
+88120030
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
