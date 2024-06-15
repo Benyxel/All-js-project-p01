@@ -12,11 +12,10 @@
 //   console.log("You are out of the game! 😞")
 // }
 
-let age = 20
+// let age = 21
 
-if (age < 21){
-  console.log("You can not enter the club!")
-}
-else {
-  console.log("Welcome")
-}
+// if (age <= 20) {
+//   console.log("You can not enter the club!")
+// }
+// else {
+//   console.log("Welcome")
