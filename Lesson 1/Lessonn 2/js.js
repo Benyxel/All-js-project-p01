@@ -40,7 +40,8 @@ let sum = firstCard + secondCard
 let isAlive = true
 let message = ""
 
-if (sum <= 20){
+function startgame(){
+  if (sum <= 20){
   message = "Do you want to draw a new card?"
 }
 else if (sum === 21){
@@ -51,5 +52,6 @@ else {
   isAlive = false
 }
 console.log(message)
+}
 
   
