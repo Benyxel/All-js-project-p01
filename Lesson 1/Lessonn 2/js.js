@@ -36,14 +36,20 @@
 
 let firstCard = 10
 let secondCard = 1
+let cards = [firstCard, secondCard]
 let sum = firstCard + secondCard
 let isAlive = true
 let message = ""
 
 let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
+let cardEl = document.querySelector("#card-el")
 
-function startgame(){
+function startGame(){
+  rendergame()
+}
+
+function rendergame(){
   if (sum <= 20){
   message = "Do you want to draw a new card?"
 }
@@ -55,7 +61,14 @@ else {
   isAlive = false
 }
 messageEl.textContent = message
-sumEl.textContent = "Sum:" + sum
+sumEl.textContent = "Sum: " + sum
+cardEl.textContent = "Cards: " + cards[0] + "," + cards[1]
 }
 
+function newcard(){
+  console.log("Draw new card from the deck!")
+  let card = 5
+  sum += card 
+  rendergame()
+}
 
