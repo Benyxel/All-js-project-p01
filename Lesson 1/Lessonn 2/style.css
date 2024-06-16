@@ -27,7 +27,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(media/);
+  background-image: url(media/card.png);
   max-width: 35%;
   padding-bottom: 40px;
   margin: auto;
