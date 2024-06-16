@@ -35,10 +35,13 @@
 
 
 let firstCard = 10
-let secondCard = 1
+let secondCard = 13
 let sum = firstCard + secondCard
 let isAlive = true
 let message = ""
+
+let messageEl = document.getElementById("message-el")
+console.log(messageEl)
 
 function startgame(){
   if (sum <= 20){
@@ -51,7 +54,8 @@ else {
   message = "You are out the game!"
   isAlive = false
 }
-console.log(message)
+
+messageEl.textContent = message
 }
 
-  
+

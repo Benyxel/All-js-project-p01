@@ -1,7 +1,7 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url(media/table.png);
-    background-size: cover;
+    background-image: url(media/card.png);
+    background-size: contain;
 }
 
 h1 {
@@ -27,7 +27,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(media/card.png);
+  background-image: url(media/table.png);
   max-width: 35%;
   padding-bottom: 40px;
   margin: auto;
