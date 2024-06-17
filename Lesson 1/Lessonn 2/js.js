@@ -34,8 +34,8 @@
 //   console.log("Not elegible, you have already gotten a card")
 
 
-let firstCard = 10
-let secondCard = 1
+let firstCard = getRandomCard()
+let secondCard = getRandomCard()
 let cards = [firstCard, secondCard]
 let sum = firstCard + secondCard
 let isAlive = true
@@ -44,6 +44,8 @@ let message = ""
 let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
 let cardEl = document.querySelector("#card-el")
+
+
 
 function startGame(){
   rendergame()
@@ -70,9 +72,14 @@ for (let i = 0; i < cards.length; i++){
 
 function newcard(){
   console.log("Draw new card from the deck!")
-  let card =2
+  let card = getRandomCard()
   sum += card 
   cards.push(card)
   rendergame()
 }
 
+function getRandomCard(){
+  return Math.floor(Math.random()*13) + 1 
+ 
+}
+console.log(getRandomCard())
