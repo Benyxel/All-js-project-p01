@@ -34,64 +34,46 @@
 //   console.log("Not elegible, you have already gotten a card")
 
 
-// let firstCard = 10
-// let secondCard = 1
-// let cards = [firstCard, secondCard]
-// let sum = firstCard + secondCard
-// let isAlive = true
-// let message = ""
+let firstCard = 10
+let secondCard = 1
+let cards = [firstCard, secondCard]
+let sum = firstCard + secondCard
+let isAlive = true
+let message = ""
 
-// let messageEl = document.getElementById("message-el")
-// let sumEl = document.getElementById("sum-el")
-// let cardEl = document.querySelector("#card-el")
+let messageEl = document.getElementById("message-el")
+let sumEl = document.getElementById("sum-el")
+let cardsEl = document.querySelector("#card-el")
 
-// function startGame(){
-//   rendergame()
-// }
+function startGame(){
+  rendergame()
+}
 
-// function rendergame(){
-//   if (sum <= 20){
-//   message = "Do you want to draw a new card?"
-// }
-// else if (sum === 21){
-//   message = "You have got a Blackjack!"
-// }
-// else {
-//   message = "You are out the game!"
-//   isAlive = false
-// }
-// messageEl.textContent = message
-// sumEl.textContent = "Sum: " + sum
-// cardEl.textContent = "Cards: " + cards[0] + "," + cards[1]
-// }
+function rendergame(){
+  if (sum <= 20){
+  message = "Do you want to draw a new card?"
+}
+else if (sum === 21){
+  message = "You have got a Blackjack!"
+}
+else {
+  message = "You are out the game!"
+  isAlive = false
+}
+messageEl.textContent = message
+sumEl.textContent = "Sum: " + sum
+cardsEl.textContent = "Cards: " + cards[0] + "," + cards[1]
+for(let i = 0; i < cards.length; i++){
+  cardsEl.textContent += cards[i]
+}
+}
 
-// function newcard(){
-//   console.log("Draw new card from the deck!")
-//   let card = 5
-//   sum += card 
-//   cards.push(card)
-//   console.log(cards)
-//   rendergame()
-// }
+function newcard(){
+  console.log("Draw new card from the deck!")
+  let card = 5
+  sum += card 
+  cards.push(card)
+  console.log(cards)
+  rendergame()
+}
 
-// Loop
-
-
-// let messages = [
-//   "Hey, how's it going?",        
-//   "I'm great, thank you! How about you?",
-//   "All good. Been working on my portfolio lately.",
-//   "Same here!",
-//   "Great to hear",
-//   "Great to hear",
-//   "Great to hear"
-// ]
-
-// for (let i = 0; i < messages.length; i += 1){
-//   console.log(messages[i])
-//   }
-
-//   let cards = [7, 3, 9]
-//   for (let i = 0; i < cards.length; i += 1){
-//     console.log(cards[i])
-//   }
