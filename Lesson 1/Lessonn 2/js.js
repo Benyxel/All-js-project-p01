@@ -62,7 +62,7 @@ else {
 }
 messageEl.textContent = message
 sumEl.textContent = "Sum: " + sum
-cardEl.textContent = "Cards: " + cards[0] + "," + cards[1]
+cardEl.textContent = "Cards: " 
 for (let i = 0; i < cards.length; i++){
   cardEl.textContent += cards[i] + " "
 }
