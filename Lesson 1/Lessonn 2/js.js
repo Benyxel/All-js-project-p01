@@ -34,41 +34,54 @@
 //   console.log("Not elegible, you have already gotten a card")
 
 
-let firstCard = 10
-let secondCard = 1
-let cards = [firstCard, secondCard]
-let sum = firstCard + secondCard
-let isAlive = true
-let message = ""
+// let firstCard = 10
+// let secondCard = 1
+// let cards = [firstCard, secondCard]
+// let sum = firstCard + secondCard
+// let isAlive = true
+// let message = ""
 
-let messageEl = document.getElementById("message-el")
-let sumEl = document.getElementById("sum-el")
-let cardEl = document.querySelector("#card-el")
+// let messageEl = document.getElementById("message-el")
+// let sumEl = document.getElementById("sum-el")
+// let cardEl = document.querySelector("#card-el")
 
-function startGame(){
-  rendergame()
-}
+// function startGame(){
+//   rendergame()
+// }
 
-function rendergame(){
-  if (sum <= 20){
-  message = "Do you want to draw a new card?"
-}
-else if (sum === 21){
-  message = "You have got a Blackjack!"
-}
-else {
-  message = "You are out the game!"
-  isAlive = false
-}
-messageEl.textContent = message
-sumEl.textContent = "Sum: " + sum
-cardEl.textContent = "Cards: " + cards[0] + "," + cards[1]
-}
+// function rendergame(){
+//   if (sum <= 20){
+//   message = "Do you want to draw a new card?"
+// }
+// else if (sum === 21){
+//   message = "You have got a Blackjack!"
+// }
+// else {
+//   message = "You are out the game!"
+//   isAlive = false
+// }
+// messageEl.textContent = message
+// sumEl.textContent = "Sum: " + sum
+// cardEl.textContent = "Cards: " + cards[0] + "," + cards[1]
+// }
 
-function newcard(){
-  console.log("Draw new card from the deck!")
-  let card = 5
-  sum += card 
-  rendergame()
-}
+// function newcard(){
+//   console.log("Draw new card from the deck!")
+//   let card = 5
+//   sum += card 
+//   rendergame()
+// }
 
+let messages = [
+  "Hey How's it going?",
+  "I'm great, thank you! how about you?",
+  "All good. Been working on the code lately."
+]
+let newMessage = "Same here"
+
+console.log(messages[0])
+console.log(messages[1])
+console.log(messages[2])
+
+messages.push(newMessage)
+console.log(newMessage)
