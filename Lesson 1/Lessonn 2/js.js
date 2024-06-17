@@ -43,7 +43,7 @@ let message = ""
 
 let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
-let cardsEl = document.querySelector("#card-el")
+let cardEl = document.querySelector("#card-el")
 
 function startGame(){
   rendergame()
@@ -62,18 +62,17 @@ else {
 }
 messageEl.textContent = message
 sumEl.textContent = "Sum: " + sum
-cardsEl.textContent = "Cards: " + cards[0] + "," + cards[1]
-for(let i = 0; i < cards.length; i++){
-  cardsEl.textContent += cards[i]
+cardEl.textContent = "Cards: " + cards[0] + "," + cards[1]
+for (let i = 0; i < cards.length; i++){
+  cardEl.textContent += cards[i] + " "
 }
 }
 
 function newcard(){
   console.log("Draw new card from the deck!")
-  let card = 5
+  let card =2
   sum += card 
   cards.push(card)
-  console.log(cards)
   rendergame()
 }
 
