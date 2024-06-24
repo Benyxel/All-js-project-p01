@@ -36,9 +36,9 @@
 
 let firstCard = getRandomCard()
 let secondCard = getRandomCard()
-let cards = [firstCard, secondCard]
-let sum = firstCard + secondCard
-let isAlive = true
+let cards = []
+let sum = 0
+let isAlive = false
 let message = ""
 
 let messageEl = document.getElementById("message-el")
@@ -48,6 +48,10 @@ let cardEl = document.querySelector("#card-el")
 
 
 function startGame(){
+  let firstCard = getRandomCard()
+  let secondCard = getRandomCard()
+  cards = [firstCard, secondCard]
+  sum = firstCard + secondCard
   rendergame()
 }
 
@@ -60,7 +64,7 @@ else if (sum === 21){
 }
 else {
   message = "You are out the game!"
-  isAlive = false
+  isAlive = true
 }
 messageEl.textContent = message
 sumEl.textContent = "Sum: " + sum
@@ -80,7 +84,7 @@ function newcard(){
 
 function getRandomCard(){
   return Math.floor(Math.random()*13) + 1 
- if (randonNumber > 10){
+ if (randonNumber > 10) {
   return 10
  }else if (randomNuber === 1) {
   return 11
