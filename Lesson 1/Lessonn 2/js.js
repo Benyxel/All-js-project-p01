@@ -80,6 +80,13 @@ function newcard(){
 
 function getRandomCard(){
   return Math.floor(Math.random()*13) + 1 
- 
+ if (randonNumber > 10){
+  return 10
+ }else if (randomNuber === 1) {
+  return 11
+ } else {
+  return randomNumber
+ }
+
 }
 console.log(getRandomCard())
