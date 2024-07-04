@@ -6,7 +6,7 @@ switch (fruit){
     break;
   
   case "Orange":
-    console.log("i am not a fun of orange.");
+    console.log("i am not a fun of oranges.");
     break;
 
   case "Apple":
