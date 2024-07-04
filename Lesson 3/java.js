@@ -1,16 +1,19 @@
- let password
+let fruit = "Apples"
 
- if (password == 8){
-  console.log("Welcom");
- }
-else if (password <= 8){
-  console.log("Password is too short");
-}
+switch (fruit){
+  case "Banana":
+    console.log("Banana is goods!");
+    break;
+  
+  case "Orange":
+    console.log("i am not a fun of orange.");
+    break;
 
-else if (password >= 8){
-  console.log("Too Long" + " Password should be 8 characters");
-}
+  case "Apple":
+    console.log("How you like them apples?");
+    break;
 
-else {
-console.log("Please provide a password");
+  default:
+    console.log("I have never heard of that fruit."); 
+  
 }
