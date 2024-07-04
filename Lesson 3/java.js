@@ -1,19 +1,7 @@
-let fruit = "Apples"
 
-switch (fruit){
-  case "Banana":
-    console.log("Banana is goods!");
-    break;
   
-  case "Orange":
-    console.log("i am not a fun of oranges.");
-    break;
 
-  case "Apple":
-    console.log("How you like them apples?");
-    break;
-
-  default:
-    console.log("I have never heard of that fruit."); 
+for (let i = 1; i <= 1000; i++) {
+  console.log("Bernard", i);
   
 }
