@@ -35,3 +35,13 @@
 
 // console.log(name.slice(0, 2));
 
+const car = {
+  type: "Honda",
+  model: "Honder civic",
+  color: "Black"
+};
+
+console.log(car.model);
+console.log(car.type);
+console.log((car.type = "Toyota"));
+console.log(car);
