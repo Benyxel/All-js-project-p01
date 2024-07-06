@@ -1,5 +1,5 @@
 
-  
+  // for loop
 
 // for (let i = 1; i <= 1000; i++) {
 //   console.log("Bernard", i);
@@ -19,6 +19,7 @@
 //   console.log("Bernard",i); i++
 // } while (i <= 400); 
 
+// ARRAYS
 // const favSingers = ["Sarkodie", "King Paluta", "Patapaa"];
 // console.log(favSingers[0]);
 
@@ -35,16 +36,27 @@
 
 // console.log(name.slice(0, 2));
 
-const car = {
-  type: "Honda",
-  model: "Honder civic",
-  color: "Black"
-};
 
-console.log(car.model);
-console.log(car.type);
-console.log((car.type = "Toyota"));
-console.log(car);
-car.wheels = 4;
+// objects
+// const car = {
+//   type: "Honda",
+//   model: "Honder civic",
+//   color: "Black"
+// };
 
-console.log(car);
+// console.log(car.model);
+// console.log(car.type);
+// console.log((car.type = "Toyota"));
+// console.log(car);
+// car.wheels = 4;
+
+// console.log(car);
+
+// function
+function sayHi(name){
+console.log(`Hi ${name}`);
+}
+
+sayHi("Bernard")
+
+// return function
