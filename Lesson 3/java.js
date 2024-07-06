@@ -59,4 +59,9 @@ console.log(`Hi ${name}`);
 
 sayHi("Bernard")
 
-// return function
+function myFunction(p1, p2) {
+  return p1 * p2;
+  
+}
+ let x = myFunction(7,6)
+ console.log(x);
