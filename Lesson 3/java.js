@@ -45,3 +45,6 @@ console.log(car.model);
 console.log(car.type);
 console.log((car.type = "Toyota"));
 console.log(car);
+car.wheels = 4;
+
+console.log(car);
