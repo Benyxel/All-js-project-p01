@@ -38,27 +38,28 @@
 
 
 // objects
-// const car = {
-//   type: "Honda",
-//   model: "Honder civic",
-//   color: "Black"
-// };
+const car = {
+  type: "Honda",
+  model: "Honder civic",
+  color: "Black"
+};
 
-// console.log(car.model);
-// console.log(car.type);
-// console.log((car.type = "Toyota"));
-// console.log(car);
-// car.wheels = 4;
+console.log(car.model);
+console.log(car.type);
+console.log((car.type = "Toyota"));
+console.log(car);
+car.wheels = 4;
 
-// console.log(car);
+console.log(car);
 
-// function
+// function declaration
 function sayHi(name){
 console.log(`Hi ${name}`);
 }
 
 sayHi("Bernard")
 
+// function expression
 function myFunction(p1, p2) {
   return p1 * p2;
   
