@@ -38,31 +38,39 @@
 
 
 // objects
-const car = {
-  type: "Honda",
-  model: "Honder civic",
-  color: "Black"
-};
+// const car = {
+//   type: "Honda",
+//   model: "Honder civic",
+//   color: "Black"
+// };
 
-console.log(car.model);
-console.log(car.type);
-console.log((car.type = "Toyota"));
-console.log(car);
-car.wheels = 4;
+// console.log(car.model);
+// console.log(car.type);
+// console.log((car.type = "Toyota"));
+// console.log(car);
+// car.wheels = 4;
 
-console.log(car);
+// console.log(car);
 
-// function declaration
-function sayHi(name){
-console.log(`Hi ${name}`);
-}
+// // function declaration
+// function sayHi(name){
+// console.log(`Hi ${name}`);
+// }
 
-sayHi("Bernard")
+// sayHi("Bernard")
 
-// function expression
-function myFunction(p1, p2) {
-  return p1 * p2;
+// // function expression
+// function myFunction(p1, p2) {
+//   return p1 * p2;
   
-}
- let x = myFunction(7,6)
- console.log(x);
+// }
+//  let x = myFunction(7,6)
+//  console.log(x);
+
+//  DATE AND TIME
+const currentDate = new Date();
+console.log(currentDate);
+
+setTimeout(function () {
+  console.log(`This code will expired in 10 sseconds`);
+}, 10000);
