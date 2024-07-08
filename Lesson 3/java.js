@@ -75,3 +75,8 @@ setTimeout(function () {
   console.log(`This code will expired in 10 sseconds`);
 }, 10000);
 
+console.log(`${2+2}`);
+
+// arrow function
+greet = username => 
+  `Hello ${username}`;
