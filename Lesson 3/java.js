@@ -1,23 +1,21 @@
-
-  // for loop
+// for loop
 
 // for (let i = 1; i <= 1000; i++) {
 //   console.log("Bernard", i);
-  
-// }
 
+// }
 
 // let i = 1
 
 // while (i <= 100){
-//  console.log("Bernard",i++); 
+//  console.log("Bernard",i++);
 // }
 
 // let i = 20
 
 // do{
 //   console.log("Bernard",i); i++
-// } while (i <= 400); 
+// } while (i <= 400);
 
 // ARRAYS
 // const favSingers = ["Sarkodie", "King Paluta", "Patapaa"];
@@ -35,7 +33,6 @@
 // const name = ["bernard","yeboah", "Boanu"]
 
 // console.log(name.slice(0, 2));
-
 
 // objects
 // const car = {
@@ -62,7 +59,7 @@
 // // function expression
 // function myFunction(p1, p2) {
 //   return p1 * p2;
-  
+
 // }
 //  let x = myFunction(7,6)
 //  console.log(x);
@@ -75,8 +72,9 @@ setTimeout(function () {
   console.log(`This code will expired in 10 sseconds`);
 }, 10000);
 
-console.log(`${2+2}`);
+console.log(`${2 + 2}`);
 
 // arrow function
-greet = username => 
-  `Hello ${username}`;
+greet = (username) => `Hello ${username}`;
+
+// spread operator
