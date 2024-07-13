@@ -97,3 +97,13 @@ const user = {
 
 const clone2 = {...user, place: "idk"}
 console.log(clone2);
+
+// rest operator
+
+function porfolio(Name, location, ...skills) {
+ console.log("Fullname: ", Name);
+ console.log("Location: ", location);
+ console.log("Skills: ", skills);
+}
+
+porfolio("Yeboah Boanu Bernard ","Ghana Accra ", "ADeveloper" )
