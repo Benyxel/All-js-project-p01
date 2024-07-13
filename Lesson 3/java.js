@@ -78,3 +78,8 @@ console.log(`${2 + 2}`);
 greet = (username) => `Hello ${username}`;
 
 // spread operator
+const colors = ["red" ,"blue", "pink", "orange"]
+const colors_2 = ["black", "white", "blown", "gold"]
+const colorsCombine = [...colors, ...colors_2]
+
+console.log(colorsCombine);
