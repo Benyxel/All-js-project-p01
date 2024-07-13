@@ -84,26 +84,26 @@ const colorsCombine = [...colors, ...colors_2]
 
 // console.log(colorsCombine);
 
-let arr = [1, 2, 3,];
-let arr2 = [4, 5];
+// let arr = [1, 2, 3,];
+// let arr2 = [4, 5];
 
-const clone = [...arr, ...arr2]
-console.log(clone);
+// const clone = [...arr, ...arr2]
+// // console.log(clone);
 
-const user = {
-  name: "Ben",
-  age: 22,
-};
+// const user = {
+//   name: "Ben",
+//   age: 22,
+// };
 
-const clone2 = {...user, place: "idk"}
-console.log(clone2);
+// const clone2 = {...user, place: "idk"}
+// // console.log(clone2);
 
 // rest operator
 
-function porfolio(Name, location, ...skills) {
+function portfolio(Name, location, ...skills) {
  console.log("Fullname: ", Name);
  console.log("Location: ", location);
  console.log("Skills: ", skills);
 }
 
-porfolio("Yeboah Boanu Bernard ","Ghana Accra ", "ADeveloper" )
+portfolio("Yeboah Boanu Bernard ","Ghana Accra ", "ADeveloper", "Artist", "Gamer" )
