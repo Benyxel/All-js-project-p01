@@ -100,10 +100,12 @@ const colorsCombine = [...colors, ...colors_2]
 
 // rest operator
 
-function portfolio(Name, location, ...skills) {
- console.log("Fullname: ", Name);
- console.log("Location: ", location);
- console.log("Skills: ", skills);
-}
+// function portfolio(Name, location, ...skills) {
+//  console.log("Fullname: ", Name);
+//  console.log("Location: ", location);
+//  console.log("Skills: ", skills);
+// }
 
-portfolio("Yeboah Boanu Bernard ","Ghana Accra ", "ADeveloper", "Artist", "Gamer" )
+// portfolio("Yeboah Boanu Bernard ","Ghana Accra ", "ADeveloper", "Artist", "Gamer" )
+
+// destrusturing
