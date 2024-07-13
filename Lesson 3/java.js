@@ -66,13 +66,13 @@
 
 //  DATE AND TIME
 const currentDate = new Date();
-console.log(currentDate);
+// console.log(currentDate);
 
-setTimeout(function () {
-  console.log(`This code will expired in 10 sseconds`);
-}, 10000);
+// setTimeout(function () {
+//   console.log(`This code will expired in 10 sseconds`);
+// }, 10000);
 
-console.log(`${2 + 2}`);
+// console.log(`${2 + 2}`);
 
 // arrow function
 greet = (username) => `Hello ${username}`;
@@ -82,4 +82,18 @@ const colors = ["red" ,"blue", "pink", "orange"]
 const colors_2 = ["black", "white", "blown", "gold"]
 const colorsCombine = [...colors, ...colors_2]
 
-console.log(colorsCombine);
+// console.log(colorsCombine);
+
+let arr = [1, 2, 3,];
+let arr2 = [4, 5];
+
+const clone = [...arr, ...arr2]
+console.log(clone);
+
+const user = {
+  name: "Ben",
+  age: 22,
+};
+
+const clone2 = {...user, place: "idk"}
+console.log(clone2);
