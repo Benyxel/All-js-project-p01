@@ -112,20 +112,27 @@ const colorsCombine = [...colors, ...colors_2]
 // Assigning the rest of an array to a variables
 
 const [mine, ...yours] = ["Laptops", "Mouse", "Pads"]
-console.log(...yours);
+// console.log(...yours);
 
 // objects destrusture
 
 const person = {
-  name: "Yeboah",
+  name: "Yeboah Bernard",
   age: 26,
   gender: "male",
   country: "Ghana"
 }
-const {name, age, gender, country} = person;
-console.log(name);
-console.log(age);
-console.log(gender);
-console.log(country);
+// const {name, age, gender, country} = person;
+// console.log(name);
+// console.log(age);
+// console.log(gender);
+// console.log(country);
 
 // renaming destrusture
+const {name, age, gender, country} = person;
+const {name: personName,age: personAge, gender: personGender,country: personCountry} = person
+
+console.log(personName);
+console.log(personAge);
+console.log(personGender);
+console.log(personCountry);
