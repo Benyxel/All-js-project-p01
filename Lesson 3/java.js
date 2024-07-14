@@ -139,15 +139,23 @@
 
 // Destrusture a function
 
-const user = {
-  name: "Benyxel",
-  platform: "steam",
-  Games: 5,
-};
+// const user = {
+//   name: "Benyxel",
+//   platform: "steam",
+//   Games: 5,
+// };
 
-function userDetails({name, platform, Games}) {
-  console.log(`Name: ${name}`);
-  console.log(`Platform: ${platform}`);
-  console.log(`Games: ${Games}`);
-}
-userDetails(user)
+// function userDetails({name, platform, Games}) {
+//   console.log(`Name: ${name}`);
+//   console.log(`Platform: ${platform}`);
+//   console.log(`Games: ${Games}`);
+// }
+// userDetails(user)
+
+
+// ternal OPerator
+
+let personMoney = true
+
+let haveMoney = personMoney = true ? "Buy Products" : "Bring Money"
+console.log(haveMoney);
