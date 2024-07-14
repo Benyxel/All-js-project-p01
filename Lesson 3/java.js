@@ -161,3 +161,8 @@ let haveMoney = personMoney = true ? "Buy Products" : "Bring Money"
 console.log(haveMoney);
 
 // for inloop
+const object =  [1, 2 , 3];
+for (const index in object) {
+ console.log(`${index} ${object[index]}`);
+    
+  }
