@@ -1,4 +1,4 @@
-// for loop
+// // for loop
 
 // for (let i = 1; i <= 1000; i++) {
 //   console.log("Bernard", i);
@@ -17,12 +17,12 @@
 //   console.log("Bernard",i); i++
 // } while (i <= 400);
 
-// ARRAYS
+// // ARRAYS
 // const favSingers = ["Sarkodie", "King Paluta", "Patapaa"];
 // console.log(favSingers[0]);
 
 // const favNumbers = [ 12, 30, 19, 2]
-// console.log(favNumbers);
+// // console.log(favNumbers);
 
 // const mixedArr = ["string",["otherarray"], "123", "true"];
 // console.log(mixedArr[0]);
@@ -49,14 +49,14 @@
 
 // console.log(car);
 
-// // function declaration
+// function declaration
 // function sayHi(name){
 // console.log(`Hi ${name}`);
 // }
 
 // sayHi("Bernard")
 
-// // function expression
+// function expression
 // function myFunction(p1, p2) {
 //   return p1 * p2;
 
@@ -65,7 +65,7 @@
 //  console.log(x);
 
 //  DATE AND TIME
-const currentDate = new Date();
+// const currentDate = new Date();
 // console.log(currentDate);
 
 // setTimeout(function () {
@@ -75,13 +75,13 @@ const currentDate = new Date();
 // console.log(`${2 + 2}`);
 
 // arrow function
-greet = (username) => `Hello ${username}`;
+// greet = (username) => `Hello ${username}`;
 
 
 // spread operator
-const colors = ["red" ,"blue", "pink", "orange"]
-const colors_2 = ["black", "white", "blown", "gold"]
-const colorsCombine = [...colors, ...colors_2]
+// const colors = ["red" ,"blue", "pink", "orange"]
+// const colors_2 = ["black", "white", "blown", "gold"]
+// const colorsCombine = [...colors, ...colors_2]
 
 // console.log(colorsCombine);
 
@@ -89,15 +89,15 @@ const colorsCombine = [...colors, ...colors_2]
 // let arr2 = [4, 5];
 
 // const clone = [...arr, ...arr2]
-// // console.log(clone);
+// console.log(clone);
 
-// const user = {
+// const user2 = {
 //   name: "Ben",
 //   age: 22,
 // };
 
-// const clone2 = {...user, place: "idk"}
-// // console.log(clone2);
+// const clone2 = {...user2, place: "idk"}
+// console.log(clone2);
 
 // rest operator
 
@@ -111,17 +111,17 @@ const colorsCombine = [...colors, ...colors_2]
 
 // Assigning the rest of an array to a variables
 
-const [mine, ...yours] = ["Laptops", "Mouse", "Pads"]
+// const [mine, ...yours] = ["Laptops", "Mouse", "Pads"]
 // console.log(...yours);
 
 // objects destrusture
 
-const person = {
-  name: "Yeboah Bernard",
-  age: 26,
-  gender: "male",
-  country: "Ghana"
-}
+// const person = {
+//   name: "Yeboah Bernard",
+//   age: 26,
+//   gender: "male",
+//   country: "Ghana"
+// }
 // const {name, age, gender, country} = person;
 // console.log(name);
 // console.log(age);
@@ -129,8 +129,8 @@ const person = {
 // console.log(country);
 
 // renaming destrusture
-const {name, age, gender, country} = person;
-const {name: personName,age: personAge, gender: personGender,country: personCountry} = person
+// const {name1, age, gender, country} = person;
+// const {name1: personName,age: personAge, gender: personGender,country: personCountry} = person
 
 // console.log(personName);
 // console.log(personAge);
