@@ -127,3 +127,5 @@ console.log(name);
 console.log(age);
 console.log(gender);
 console.log(country);
+
+// renaming destrusture
