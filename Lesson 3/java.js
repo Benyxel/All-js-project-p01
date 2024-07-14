@@ -159,3 +159,5 @@ let personMoney = true
 
 let haveMoney = personMoney = true ? "Buy Products" : "Bring Money"
 console.log(haveMoney);
+
+// for inloop
