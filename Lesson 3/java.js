@@ -77,6 +77,7 @@ const currentDate = new Date();
 // arrow function
 greet = (username) => `Hello ${username}`;
 
+
 // spread operator
 const colors = ["red" ,"blue", "pink", "orange"]
 const colors_2 = ["black", "white", "blown", "gold"]
@@ -108,5 +109,21 @@ const colorsCombine = [...colors, ...colors_2]
 
 // portfolio("Yeboah Boanu Bernard ","Ghana Accra ", "ADeveloper", "Artist", "Gamer" )
 
-// destrusturing
+// Assigning the rest of an array to a variables
 
+const [mine, ...yours] = ["Laptops", "Mouse", "Pads"]
+console.log(...yours);
+
+// objects destrusture
+
+const person = {
+  name: "Yeboah",
+  age: 26,
+  gender: "male",
+  country: "Ghana"
+}
+const {name, age, gender, country} = person;
+console.log(name);
+console.log(age);
+console.log(gender);
+console.log(country);
