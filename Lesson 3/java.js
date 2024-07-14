@@ -132,7 +132,22 @@ const person = {
 const {name, age, gender, country} = person;
 const {name: personName,age: personAge, gender: personGender,country: personCountry} = person
 
-console.log(personName);
-console.log(personAge);
-console.log(personGender);
-console.log(personCountry);
+// console.log(personName);
+// console.log(personAge);
+// console.log(personGender);
+// console.log(personCountry);
+
+// Destrusture a function
+
+const user = {
+  name: "Benyxel",
+  platform: "steam",
+  Games: 5,
+};
+
+function userDetails({name, platform, Games}) {
+  console.log(`Name: ${name}`);
+  console.log(`Platform: ${platform}`);
+  console.log(`Games: ${Games}`);
+}
+userDetails(user)
