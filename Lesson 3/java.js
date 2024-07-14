@@ -109,3 +109,4 @@ const colorsCombine = [...colors, ...colors_2]
 // portfolio("Yeboah Boanu Bernard ","Ghana Accra ", "ADeveloper", "Artist", "Gamer" )
 
 // destrusturing
+
