@@ -166,3 +166,5 @@ for (const index in object) {
  console.log(`${index} ${object[index]}`);
     
   }
+
+   
