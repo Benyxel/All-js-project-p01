@@ -76,12 +76,13 @@ for (let i = 0; i < cards.length; i++){
 
 function newcard(){
   console.log("Draw new card from the deck!")
+
   let card = getRandomCard()
   sum += card 
   cards.push(card)
   rendergame()
+  
 }
-
 function getRandomCard(){
   return Math.floor(Math.random()*13) + 1 
  if (randonNumber > 10) {
