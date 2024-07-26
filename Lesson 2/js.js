@@ -34,64 +34,76 @@
 //   console.log("Not elegible, you have already gotten a card")
 
 
-let firstCard = getRandomCard()
-let secondCard = getRandomCard()
-let cards = []
-let sum = 0
-let isAlive = false
-let message = ""
+// let firstCard = getRandomCard()
+// let secondCard = getRandomCard()
+// let cards = []
+// let sum = 0
+// let isAlive = false
+// let message = ""
 
-let messageEl = document.getElementById("message-el")
-let sumEl = document.getElementById("sum-el")
-let cardEl = document.querySelector("#card-el")
+// let messageEl = document.getElementById("message-el")
+// let sumEl = document.getElementById("sum-el")
+// let cardEl = document.querySelector("#card-el")
 
 
 
-function startGame(){
-  let firstCard = getRandomCard()
-  let secondCard = getRandomCard()
-  cards = [firstCard, secondCard]
-  sum = firstCard + secondCard
-  rendergame()
-}
+// function startGame(){
+//   let firstCard = getRandomCard()
+//   let secondCard = getRandomCard()
+//   cards = [firstCard, secondCard]
+//   sum = firstCard + secondCard
+//   rendergame()
+// }
 
-function rendergame(){
-  if (sum <= 20){
-  message = "Do you want to draw a new card?"
-}
-else if (sum === 21){
-  message = "You have got a Blackjack!"
-}
-else {
-  message = "You are out the game!"
-  isAlive = true
-}
-messageEl.textContent = message
-sumEl.textContent = "Sum: " + sum
-cardEl.textContent = "Cards: " 
-for (let i = 0; i < cards.length; i++){
-  cardEl.textContent += cards[i] + " "
-}
-}
+// function rendergame(){
+//   if (sum <= 20){
+//   message = "Do you want to draw a new card?"
+// }
+// else if (sum === 21){
+//   message = "You have got a Blackjack!"
+// }
+// else {
+//   message = "You are out the game!"
+//   isAlive = true
+// }
+// messageEl.textContent = message
+// sumEl.textContent = "Sum: " + sum
+// cardEl.textContent = "Cards: " 
+// for (let i = 0; i < cards.length; i++){
+//   cardEl.textContent += cards[i] + " "
+// }
+// }
 
-function newcard(){
-  console.log("Draw new card from the deck!")
+// function newcard(){
+//   console.log("Draw new card from the deck!")
 
-  let card = getRandomCard()
-  sum += card 
-  cards.push(card)
-  rendergame()
+//   let card = getRandomCard()
+//   sum += card 
+//   cards.push(card)
+//   rendergame()
   
-}
-function getRandomCard(){
-  return Math.floor(Math.random()*13) + 1 
- if (randonNumber > 10) {
-  return 10
- }else if (randomNuber === 1) {
-  return 11
- } else {
-  return randomNumber
- }
+// }
+// function getRandomCard(){
+//   return Math.floor(Math.random()*13) + 1 
+//  if (randonNumber > 10) {
+//   return 10
+//  }else if (randomNuber === 1) {
+//   return 11
+//  } else {
+//   return randomNumber
+//  }
 
+// }
+
+// console.log(getRandomCard())
+
+let person = {
+  name: "Bernard",
+  age: 27,
+  country: "Ghana"
 }
-console.log(getRandomCard())
+
+function logData() {
+  console.log(`${person.name} is ${person.age} years old and lives in ${person.country}`);
+}
+logData()

@@ -49,10 +49,10 @@
 
 // console.log(car);
 
-// function declaration
-// function sayHi(name){
-// console.log(`Hi ${name}`);
-// }
+//  function declaration
+function sayHi(name){
+ console.log(`Hi ${name}`);
+ }
 
 // sayHi("Bernard")
 
