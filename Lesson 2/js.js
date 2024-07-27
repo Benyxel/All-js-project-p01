@@ -97,13 +97,14 @@
 
 // console.log(getRandomCard())
 
-let person = {
-  name: "Bernard",
-  age: 27,
-  country: "Ghana"
-}
+// let person = {
+//   name: "Bernard",
+//   age: 27,
+//   country: "Ghana"
+// }
 
-function logData() {
-  console.log(`${person.name} is ${person.age} years old and lives in ${person.country}`);
-}
-logData()
+// function logData() {
+//   console.log(`${person.name} is ${person.age} years old and lives in ${person.country}`);
+// }
+// logData()
+

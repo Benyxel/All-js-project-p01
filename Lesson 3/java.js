@@ -50,9 +50,9 @@
 // console.log(car);
 
 //  function declaration
-function sayHi(name){
- console.log(`Hi ${name}`);
- }
+// function sayHi(name){
+//  console.log(`Hi ${name}`);
+//  }
 
 // sayHi("Bernard")
 
@@ -155,16 +155,16 @@ function sayHi(name){
 
 // ternal OPerator
 
-let personMoney = true
+// let personMoney = true
 
-let haveMoney = personMoney = true ? "Buy Products" : "Bring Money"
-console.log(haveMoney);
+// let haveMoney = personMoney = true ? "Buy Products" : "Bring Money"
+// console.log(haveMoney);
 
-// for inloop
-const object =  [1, 2 , 3];
-for (const index in object) {
- console.log(`${index} ${object[index]}`);
+// // for inloop
+// const object =  [1, 2 , 3];
+// for (const index in object) {
+//  console.log(`${index} ${object[index]}`);
     
-  }
+//   }
 
    
