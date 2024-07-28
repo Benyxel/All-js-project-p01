@@ -537,3 +537,15 @@ background: var(--second-bg-color);
   color: gold;
 }
 
+.contact{
+  background: var(--bg-color);
+}
+
+.contact h2{
+  margin-bottom: 3rem;
+  color: white;
+}
+
+.contact form{
+  
+}
