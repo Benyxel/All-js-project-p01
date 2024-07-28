@@ -505,7 +505,8 @@ background: var(--second-bg-color);
   background: rgba(0, 0, 0, 0.7);
   border: 3px solid rgba(238, 238,238, 0.2);
   border-radius: 2rem;
-  margin: 30px 30px;
+  margin: 0 2rem;
+  padding: 30px 60px;
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -516,4 +517,22 @@ background: var(--second-bg-color);
   color: white;
   transition: 0.4s ease-in-out;
 
+}
+
+.testimonial-item:hover{
+  border: 3px solid var(--main-color);
+  transform: translateY(-10px)scale(1.03);
+  box-shadow: 0 0 50px var(--main-color);
+}
+
+.testimonial-item h2{
+  font-size: 2.8rem ;
+}
+
+.testimonial-item p{
+  font-size: 1.3rem;
+}
+#star{
+  font-size: 2.5rem;
+  color: gold;
 }
