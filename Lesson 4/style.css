@@ -254,7 +254,7 @@ cursor: pointer;
       content: "Frontend Designer";
     }
     21%,
-    60%{
+    40%{
       content: "Web Designer";
     }
     41%,
@@ -270,7 +270,7 @@ cursor: pointer;
       content: "Graphic Designer";
     }
   
-}`1
+}
 
 @keyframes typing{
   10%,
@@ -294,6 +294,6 @@ cursor: pointer;
   65%,
   80%,
   85%{
-    width: calc(100%+ 8px); 
+    width: calc(100% + 8px); 
   }
 }
