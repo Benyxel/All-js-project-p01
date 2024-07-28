@@ -251,11 +251,11 @@ cursor: pointer;
 @keyframes words{
     0%,
     20%{
-      content: "Frontend Designer";
+      content: "Frontend Developer";
     }
     21%,
     40%{
-      content: "Web Designer";
+      content: "Web Developer";
     }
     41%,
     60%{
@@ -263,7 +263,7 @@ cursor: pointer;
     }
     61%,
     80%{
-      content: " Web Developer";
+      content: "Animator";
     }
     81%,
     100%{
@@ -374,6 +374,65 @@ cursor: pointer;
   border: 3px solid var(--main-color);
   padding: 30px 50px;
   border-radius: 4rem;
-  box-shadow: 0 0 10px;
+  box-shadow: 0 0 10px var(--main-color);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.timeline-content:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 25px var(--main-color);
+}
+
+.timeline-content h3{
+  font-size: 20px;
+  color: white;
+  margin: 0 0 10px;
+  font-weight: 700;
+}
+
+.timeline-content p {
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px ;
+}
+
+::-webkit-scrollbar{
+  width: 2px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: var(--main-color);
+}
+
+::-webkit-scrollbar-track{
+  background-color: var(--bg-color);
+}
+
+.services{
+  background: var(--bg-color);
+  color: black;
+}
+
+.services h2 {
+  margin-bottom: 5rem;
+  color: white;
+
+}
+
+.services-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.service-box{
+  background-color: var(--main-color);
+  height: 300px;
+  border-radius: 3rem;
+  border: 5px solid transparent;
+
 
 }
