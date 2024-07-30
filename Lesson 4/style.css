@@ -668,6 +668,9 @@ background: var(--second-bg-color);
     text-align: left;
   }
 
+  .timeline-items::before{
+    left: 7px;
+  }
 
 .timeline-item:nth-child(odd),
 .timeline-item:nth-child(even){
@@ -681,8 +684,10 @@ background: var(--second-bg-color);
   padding-bottom: 7rem;
 }
 
-.testimonials .wrapper{
+ .testimonials-box .wrapper{
   grid-template-columns: repeat(1,1fr);
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .contact form{
@@ -724,6 +729,23 @@ background: var(--second-bg-color);
     margin:  5rem 4rem;
   }
   .home-content h3{
-    
+    font-size: 2.6rem;
+  }
+  .home-content h1 {
+    font-size: 8rem;
+    margin-top: 3rem;
+  }
+  .home-content p{
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .home-img img{
+    width: 56vw;
+  }
+  .service h2{
+    margin-bottom: 3rem;
+  }
+  .services-container{
+    grid-template-columns: repeat(1,1fr);
   }
 }
