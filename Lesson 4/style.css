@@ -14,7 +14,7 @@
   --bg-color: #080808;
   --second-bg-color: #131313;
   --text-color: white;
-  --main-color: #fa9907;
+  --main-color: #faab34;
 --other-color: rgb(255, 224, 198);  
   
 }
@@ -539,11 +539,20 @@ background: var(--second-bg-color);
 
 .contact{
   background: var(--bg-color);
+  background-image: url(sec.jpg);
+  
 }
 
+.white{
+  width: 100%;
+  background:var(--main-color);
+  height: 15vh;
+  backdrop-filter: blur(10px);
+}
 .contact h2{
   margin-bottom: 3rem;
   color: white;
+
 }
 
 .contact form{
