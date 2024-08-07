@@ -149,14 +149,23 @@ aside .logo img {
 }
 
 aside #close{
-  display:  none;
+  display: none;
 }
 
-aside .sidebar{
+aside .sidebar {
   background: white;
   display: flex;
   flex-direction: column;
   height: 86vh;
   position: relative;
   top: 3rem;
+}
+
+aside h3 {
+  font-weight: 500;
+}
+
+aside .sidebar a {
+  display: flex;
+  
 }
