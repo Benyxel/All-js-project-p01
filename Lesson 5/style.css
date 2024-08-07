@@ -123,5 +123,40 @@ b{
   margin: 0 auto;
   gap: 1.8rem;
   grid-template-columns: 14rem auto 23rem;
+  
+}
 
+.aside{
+  height: 100vh;
+
+}
+
+aside .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.4rem;
+}
+
+aside .logo {
+  display: flex;
+  gap: 0.8rem;
+}
+
+aside .logo img {
+  width: 2rem;
+  height: 2rem;
+}
+
+aside #close{
+  display:  none;
+}
+
+aside .sidebar{
+  background: white;
+  display: flex;
+  flex-direction: column;
+  height: 86vh;
+  position: relative;
+  top: 3rem;
 }
