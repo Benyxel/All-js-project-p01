@@ -92,3 +92,36 @@ small{
 .text-muted{
   color: var(--color-info-dark)
 }
+
+p{
+  color:  var(--color-dark-variant);
+}
+
+b{
+  color: var(--color-dark);
+}
+
+.danger{
+  color: var(--color-danger);
+}
+
+.warning{
+  color: var(--color-warning);
+}
+
+.primary{
+  color: var(--color-primary);
+}
+
+.success{
+  color: var(--color-success);
+}
+
+.container{
+  display: grid;
+  width: 96%;
+  margin: 0 auto;
+  gap: 1.8rem;
+  grid-template-columns: 14rem auto 23rem;
+
+}
