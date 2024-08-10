@@ -245,4 +245,20 @@ main .insights > div{
   padding: var(--card-padding);
   border-radius: var(--card-border-radius);
   margin-top: 1rem;
+  box-shadow: var(--box-shadow);
+
+}
+
+main .insights > div:hover{
+  box-shadow: none;
+  transition: all 300ms ease;
+}
+
+main .insights > div span{
+  background: coral;
+  padding: 0.5rem;
+  color:var(--color-white);
+  border-radius: 50%;
+  font-size: 2rem;
+
 }
