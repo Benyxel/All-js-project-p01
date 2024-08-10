@@ -48,6 +48,7 @@ body{
   background: var(--color-background);
   user-select: none;
   overflow-x: hidden;
+  color: var(--color-dark);
 
 }
 
@@ -215,3 +216,33 @@ aside .sidebar .message-count{
   border-radius: 5px;
 }
 
+
+main{
+  margin-top: 1.4rem;
+}
+
+main .date{
+ display: inline-block;
+ background: var(--color-light);
+ margin-top: 1rem;
+ border-radius: var(--border-radius-1);
+ padding: 0.5rem 1.6rem;
+}
+
+main .date input[type="date"] {
+  background: transparent;
+  color: var(--color-dark);
+}
+
+main .insights{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+}
+
+main .insights > div{
+  background: var(--color-white);
+  padding: var(--card-padding);
+  border-radius: var(--card-border-radius);
+  margin-top: 1rem;
+}
