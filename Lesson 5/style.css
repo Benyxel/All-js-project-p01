@@ -302,3 +302,54 @@ main .insights svg circle{
   stroke-dasharray: 110;
   stroke-dashoffset: 92;
 }
+
+.form{
+  max-width: 300px;
+  padding-left: 50;
+  margin: 0px;
+  background: #d6d6d6;
+  padding: 20px;
+  border-radius:none;
+}
+
+input[type="text"], select {
+  display: inline-block;
+  
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 4px;
+  margin: 8px 0;
+}
+
+input[type=submit] {
+  width: 100%;
+  padding: 12px 20px;
+  border-radius: 4px;
+  margin: 8px 0;
+  color: white;
+  background: rgb(29, 189, 29);
+}
+
+input[type=submit]:hover{
+  background: green;
+}
+
+input[type="text"]:focus{
+  background-color: #f7f7f7;
+  border: 1px solid coral;
+}
+
+.login-container{
+  display: flex;
+  justify-content: center;
+}
+
+.form h2{
+  text-align: center;
+}
+
+
+ 
+  
+  
+  
