@@ -10,46 +10,13 @@
     <p>Rock Paper Scissors</p>
     
     <button onclick="
-   const computerMove = pickComputerMove();
-    
-    let result = ''  
-      
-
-      if ( computerMove === 'rock'){
-        result = 'You Tie'
-      }
-
-      else if (computerMove === 'paper'){
-        result ='You lose'
-      }
-
-      else if (computerMove === 'scissors'){
-        result ='You win'
-      }
-
-      alert(`Computer picked: ${computerMove}  ${result}`)
+    playgame('rock')
       
     ">Rock</button>
 
 
     <button onclick="
-    const computerMove = pickComputerMove();
-
-      let result = ''
-
-    if(computerMove === 'rock'){
-      result = 'You Win'
-    }
-
-    else if (computerMove === 'paper'){
-      result = 'You Tie'
-    }
-
-    else if(computerMove === 'scissors'){
-      result = 'You lose'
-    }
-    
-    alert(`Computer Picked: ${computerMove +','} ${result}`)
+    playgame('paper')
 
     ">Paper</button>
 
@@ -79,6 +46,33 @@
 
             else if(computerMove === 'scissors'){
               result = 'You tie'
+            }
+          }
+          else if(playerMove === 'paper'){
+                    if(computerMove === 'rock'){
+              result = 'You Win'
+            }
+
+            else if (computerMove === 'paper'){
+              result = 'You Tie'
+            }
+
+            else if(computerMove === 'scissors'){
+              result = 'You lose'
+            }
+          }
+
+          else if(playerMove === 'rock'){
+              if ( computerMove === 'rock'){
+              result = 'You Tie'
+            }
+
+            else if (computerMove === 'paper'){
+              result ='You lose'
+            }
+
+            else if (computerMove === 'scissors'){
+              result ='You win'
             }
           }
          
