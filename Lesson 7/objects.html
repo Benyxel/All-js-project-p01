@@ -79,7 +79,7 @@
           score.wins += 1;
         } else if (result === "You lose") {
           score.losses += 1;
-        } else if (score.ties === "You Tie"){score.ties += 1;}
+        } else if (result === "You Tie"){score.ties += 1;}
 
         alert(
           `You picked ${playerMove}. Computer picked: ${computerMove}. ${result}
