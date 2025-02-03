@@ -1,0 +1,149 @@
+body,
+html {
+  background-color: rgb(236, 234, 234);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+h1,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.all-c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.C1,
+.C2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.c1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 30px 0 30px 30px;
+  border: none;
+  width:80%;
+  height: 400px;
+  border-radius: 25px 25px 25px 25px;
+  box-shadow: 0px 14px 10px rgba(0, 0, 0, 0.1);
+}
+
+.c2 {
+  background: rgb(24, 54, 71);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 80%;
+  margin-left: 30px;
+  height: 400px;
+  border-radius: 0px 25px 25px 65px;
+}
+
+.c2 div {
+  text-align: center;
+  color: white;
+  font-family: poppins;
+}
+
+.c2 div h1 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.c2 div h5 {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.c1-ht {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding-bottom: 60px;
+}
+
+.c1-ht h1 {
+  font-family: roboto;
+  font-size: 20px;
+  text-align: center;
+}
+
+.c1-ht h5 {
+  font-family: poppins;
+  color: rgb(5, 91, 131);
+  font-weight: 500;
+  border-bottom: 1px solid rgb(5, 91, 131);
+  cursor: pointer;
+  padding-bottom: 0px;
+}
+
+.allin {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: space-between;
+  
+}
+
+.in1{
+  width: 100%;
+}
+
+label {
+  font-size: 14px;
+  font-family: poppins;
+}
+.in1 input {
+  width: calc(100% - 60px);
+  margin-bottom: 1rem;
+  padding: 10px 30px 10px 30px;
+  border-radius: 5px;
+  border: solid 1.5px rgb(5, 91, 131);
+}
+
+.in input {
+  margin-bottom: 1rem;
+  padding: 10px 0px 10px 10px;
+  border-radius: 5px;
+  border: solid 1.5px rgb(5, 91, 131);
+}
+
+.in-g{
+  position: relative;
+  
+}
+
+.in-e {
+  position: absolute;
+  top:18%;
+  left: 12px;
+  font-size: 16px;
+  font-weight: 900;
+  
+}
+
+.addon{
+  position: absolute;
+  top:18%;
+  right:15px;
+}
+

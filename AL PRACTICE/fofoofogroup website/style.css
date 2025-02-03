@@ -1,0 +1,431 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yesteryear&display=swap');
+
+
+
+
+
+
+:root{
+  --color-text:#FCAE00;
+  --color-text2:#fcac00af;
+  --color-text3:#ffffffa6;
+  --font-size-small: 14px;
+  --font-size-medium: 18px;
+  --font-size-large: 20px;
+  --font-size-xlarge: 40px;
+  --font-family: 'Roboto', sans-serif;
+  --font-family: 'open sans', sans-serif;
+
+}
+
+
+p,ul,h1{
+  margin: 0;
+  padding: 0;
+}
+ 
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+.header-container{
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-bottom: 180px;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.205);
+  z-index: 10; 
+}
+
+.header-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:transparent;
+  margin: auto;
+  padding: 0 5px;
+}
+
+.small-info{
+  display: flex;
+  justify-content: center;
+  padding: 15px 20px;
+  margin-right: -40%;
+}
+
+.small-info span{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color:var(--color-text3);
+  margin: 0 15px;
+}
+
+.small-info span::before{
+  content: "CALL US: ";
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--color-text3);
+}
+
+ .icon-t .bx{
+  
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  padding: 5px 5px;
+  margin: 0 5px;
+  border: 1px solid var(--color-text) ;
+}
+
+  .header-2{
+    position: relative;
+    display: flex;
+    background: transparent;
+  }
+
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+.logo{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+ 
+
+}
+
+.logo img {
+  display: flex;
+  width: 120px;
+  padding-left: 380px;
+  padding-bottom: 5px;
+  height: auto;
+}
+
+.pages{
+  display: flex;
+  padding-left: 320px;  
+}
+.pages ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding-bottom: -5px;
+
+}
+
+.pages ul li a {
+  font-size: 14px;
+  font-weight:500;
+  color:var(--color-text3);
+  
+  text-decoration: none;
+  font-family: opensans, Arial, Helvetica, sans-serif;
+  padding-inline-start: 30px;
+}
+
+section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background-image: url('fofoofo-group-hero-image.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 0px;
+  z-index: -1;
+}
+
+
+
+
+
+.head-c-c{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-top: -140px;
+  
+}
+
+.head-c-content{
+  position: relative;
+  display: block;
+  padding: 40px;
+  
+}
+
+.w-e{
+  font-family: Yesteryear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  color: var(--color-text);
+  margin-bottom: -20px;
+  
+  
+}
+
+.s-b{
+  font-family:poppins;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bolder;
+  padding: 25px 35px;
+  margin-bottom: 50px;
+  border: 5px solid var(--color-text);
+}
+
+.text-head-c {
+  margin-top: 230px;
+}
+
+.text-head {
+  padding-bottom: 100px;
+}
+
+.text-head h1 {
+  text-align: center;
+  font-family: roboto;
+  font-size: 40px;
+  font-weight: 800;
+  color: rgb(39, 39, 39);
+}
+
+.value-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px 0;
+}
+
+.value-content {
+  padding-left: 40px;
+}
+
+.arrow-s {
+  margin: 0 50px 0 0; /* Add 50px margin to the right */
+}
+
+.arrow-s span {
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.value-content h2 {
+  font-family: roboto;
+  font-size: 24px;
+  font-weight: 800;
+  border-bottom: 1px solid black;
+}
+
+.value-content p {
+  font-size: 16px;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  line-height: 25px;
+  padding-top: 30px;
+}
+
+.all-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin: 0 300px;
+}
+
+
+
+ 
+.s3 {
+  
+  background: #f7f7f7;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.team-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.team-head h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  color: rgb(39, 39, 39);
+  padding-bottom: 20px;
+  margin-bottom: 29px;
+  border-bottom: 1px solid var(--color-text);
+  text-align: center;
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 70px;
+}
+
+.team-content {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+
+  max-width: 1170px;
+}
+
+.team-member {
+  display: block;
+  text-align: center;
+  margin: 0 30px;
+}
+
+.team-member img {
+  width: 330px;
+  height: auto;
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+  margin-bottom: 20px;
+}
+
+.team-member img:hover {
+  filter: none;
+}
+
+.team-member h1 {
+  font-family: 'roboto';
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  color: #1b1b1b;
+}
+
+.team-member .p-1 {
+  font-size: 18px;
+  font-family: 'droid sans';
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: rgb(158, 156, 156);
+}
+
+.team-member p {
+  font-size: 14px;
+  line-height: 25px;
+  width: 340px;
+  margin: 0 auto;
+  color: #555;
+  font-family: 'open sans', sans-serif;
+}
+
+ i {
+  font-size: 24px;
+  padding: 8px 8px;
+  margin: 15px 5px;
+  border-radius: 3px;
+  border: 1px solid var(--color-text);
+  cursor: pointer;
+}
+
+ i#facebook:hover {
+ background:rgb(24, 119, 242) ;
+ border: none;
+ color: white;
+}
+
+i#twitter:hover{
+  background:rgb(29, 161, 242);
+ border: none;
+ color: white;
+}
+
+i#linkedin:hover{
+  background:rgb(0, 119, 181);
+ border: none;
+ color: white;
+}
+
+.s4{
+  background-image: url('fofoofo-group-hero-image2.jpg');
+  background-size: cover;
+  width: 100%;
+}
+
+
+.ov{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.ov h1{
+  font-family: roboto;
+  font-size:40px;
+}
+
+.all-v-cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+
+}
+
+.v-cards{
+  display: block;
+  padding: 30px 10px;
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px;
+  
+  
+}
+
+.v-cards h3{
+  font-family: poppins;
+  font-weight: 600;
+}
+
+.v-cards ul{
+  color: rgb(104, 104, 104) ;
+  line-height: 25px;
+  padding: 0 30px 30px 30px;
+  align-items: center;
+  font-family: 'open sans';
+  font-size: 14px;
+  width: 240px;
+}
+
+#card1{
+  margin-bottom: 420px;
+}
