@@ -1,0 +1,140 @@
+body,html {
+  background-image: url(elegant-smartphone-composition.jpg);
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+section{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh; 
+}
+p,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.full-c {
+  display: flex;
+  height: 100vh;  
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.c1,
+.c2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.c1 {
+  text-align: center;
+  background: rgb(255, 161, 20);
+  border-radius: 50px 0 0 50px;
+  width: 500px;
+  height: 600px;
+  box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.c2 {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.849);
+  border-radius: 0 50px 50px 0;
+  width: 600px;
+  height: 600px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.c1 h1
+ {
+  font-size: 50px;
+  font-family: roboto;
+}
+
+.c2 h1 {
+  font-size: 30px;
+  padding: 0 0 10px 0;
+  font-family: roboto;
+}
+
+.c1 p {
+  font-family: poppins;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 30px 0;
+}
+
+.c1 button {
+  font-family: roboto;
+  font-weight: 600;
+  padding: 10px 20px;
+  font-size: 20px;
+  background: transparent;
+  border: 3px solid black;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+input {
+  background: rgb(230, 232, 235);
+  border: none;
+  border-radius: 50px;
+  display: block;
+  margin: 10px 10px;
+  padding: 10px 40px;
+  width: calc(50% - 100px); /* Adjust to fit within the container */
+}
+
+.c2 p {
+  font-family: poppins;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+
+.icons i {
+  cursor: pointer;
+  font-size: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+
+.input-icons {
+  background-image: url("person.svg");
+  background-repeat: no-repeat;
+  background-position: 10px center;
+}
+.input-icon1 {
+  background-image: url("mail.svg");
+  background-repeat: no-repeat;
+  background-position: 10px center;
+}
+
+.input-icon2 {
+  background-image: url("lock.svg");
+  background-repeat: no-repeat;
+  background-position: 10px center;
+}
+
+.c2 button {
+  font-family: roboto;
+  font-weight: 600;
+  padding: 8px 20px;
+  font-size: 20px;
+  background: rgb(255, 161, 20);
+  border: none;
+  border-radius: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 7px
+}
